@@ -1,7 +1,10 @@
-package org.bootcamp;
+package org.bootcamp.calculator;
+
+import org.bootcamp.formula.Formula;
+import org.bootcamp.vehicle.Vehicle;
 
 public final class InsurancePolicyCalculator {
-    public static final InsurancePolicyCalculator INSTANCE = null;
+    public static final InsurancePolicyCalculator INSTANCE = new InsurancePolicyCalculator();
 
     private InsurancePolicyCalculator(){
 

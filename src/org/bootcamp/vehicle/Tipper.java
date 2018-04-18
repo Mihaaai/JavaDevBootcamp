@@ -1,4 +1,4 @@
-package org.bootcamp;
+package org.bootcamp.vehicle;
 
 public class Tipper extends Vehicle {
     float capacityInTons;

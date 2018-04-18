@@ -11,4 +11,8 @@ public final class Car extends Vehicle {
         super(age, numberOfMiles, isDiesel);
         this.transmission = transmission;
     }
+
+    public Transmission getTransmission() {
+        return transmission;
+    }
 }

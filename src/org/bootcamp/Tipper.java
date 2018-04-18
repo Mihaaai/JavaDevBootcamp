@@ -7,4 +7,8 @@ public class Tipper extends Vehicle {
         super(age, numberOfMiles, isDiesel);
         this.capacityInTons = capacityInTons;
     }
+
+    public float getCapacityInTons() {
+        return capacityInTons;
+    }
 }

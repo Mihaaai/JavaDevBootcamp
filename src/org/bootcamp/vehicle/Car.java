@@ -12,6 +12,10 @@ public final class Car extends Vehicle {
         this.transmission = transmission;
     }
 
+    public Car(int age, long numberOfMiles, boolean isDiesel) {
+        super(age, numberOfMiles, isDiesel);
+    }
+
     public Transmission getTransmission() {
         return transmission;
     }

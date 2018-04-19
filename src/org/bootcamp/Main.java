@@ -35,6 +35,7 @@ public class Main {
             for(InsuranceCalculationResult result: resultList)
             {
                 final String output = String.format(OUTPUT_FORMAT,result.getId(),result.getCost());
+                System.out.println(output);
             }
         }
     }
